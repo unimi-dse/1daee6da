@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+
+importFrom(readr, read_csv)
+importFrom(DataExplorer, create_report)
+importFrom(plotly, plot_ly)
