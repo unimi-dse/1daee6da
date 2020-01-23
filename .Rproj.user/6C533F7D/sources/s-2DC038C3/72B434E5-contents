@@ -12,7 +12,7 @@
 #' @usage To use this function by itself, store the DF in a variable by the following command: > df = import_data()
 #' @importFrom readr
 import_data <- function() {
-  df <- read_csv('titanic/train.csv')
+  df <- read_csv('data/titanic/train.csv')
   return(df)
 }
 
