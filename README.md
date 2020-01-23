@@ -32,7 +32,7 @@ Run the main function by typing:
 One function: plot_passengers is omitted by the main function. Run the command ?plot_survivors for info on how to call it.
 ```
 
-The function create_report() will create a statistical report of the data-set, as a HTML-file. This file will either open automatically in your browser, or you have to manually open it from the Files-window in R-studio. The function uses a package called DataExplorer.
+The function create_report() will create a statistical report of the data-set, as a HTML-file. This file will either open automatically in your browser, or you have to manually open it from the Files-window in R-studio. The function comes from a package called DataExplorer.
 
 The function plot_survivors creates a scatter plot of the passengers, with the binary feature "Survived" on the y-axis, the numerical feature "Age" on the x-axis and "Gender" as a color. It becomes clear that women were more likely to have survived than men. One can also see that younger people were slightly more likely to survive.
 
