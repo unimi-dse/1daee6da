@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "72B434E5",
-    "lastKnownWriteTime" : 1579796374,
-    "last_content_update" : 1579796374468,
+    "lastKnownWriteTime" : 1579798034,
+    "last_content_update" : 1579798034,
     "path" : "~/R/titanic_analysis/titanicanalysis/R/functions.R",
     "project_path" : "R/functions.R",
     "properties" : {
         "cursorPosition" : "69,0",
-        "scrollLine" : "52"
+        "scrollLine" : "38"
     },
     "read_only" : false,
     "read_only_alternatives" : [
