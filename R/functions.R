@@ -17,7 +17,7 @@ import_data <- function() {
 }
 
 
-# Calculate and print mean age of all pasengers categorized on gender
+# Calculate and print mean age of all pasengers
 #' @title Passenger Age Mean
 #'
 #' @description This function returns the mean age of the passengers.
@@ -26,7 +26,7 @@ age_mean <- function(df){
   sprintf("The mean age of all the passengers was: %f", mean(df[['Age']][complete.cases(df[['Age']])]))
 }
 
-# Calculate mean age of survivors categorized on gender
+# Calculate mean age of survivors
 #' @title Survivor Age Mean
 #'
 #' @description This function returns the mean age of the survivors.
