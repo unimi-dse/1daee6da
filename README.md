@@ -1,8 +1,7 @@
 ---
 title: "README"
 author: "Filip Vitez"
-date: "1/23/2020"
-output: html_document
+date: "2/6/2020"
 ---
 
 ```{r setup, include=FALSE}
