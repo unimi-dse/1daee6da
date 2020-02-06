@@ -4,8 +4,14 @@
 \alias{survivor_age_mean}
 \title{Survivor Age Mean}
 \usage{
-To use this function by itself, you need to input the Titanic DF. The DF can be stored as a variable by using the function import_data(). You can then call the use the function with the command: > survivor_age_mean(df)
+To use this function by itself, you need to input the Titanic DF. The DF can be stored as a variable by using the function import_data().
+}
+\arguments{
+\item{df}{The Titanic dataframe. Raw data as csv from Kaggle, converted to a R dataframe with the function read_csv.}
 }
 \description{
 This function returns the mean age of the survivors.
+}
+\examples{
+survivor_age_mean(df)
 }

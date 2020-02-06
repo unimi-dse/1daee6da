@@ -4,8 +4,11 @@
 \alias{main_func}
 \title{Main function}
 \usage{
-Run the function by calling it without arguments: > main_func()
+Run the function by calling it without arguments.
 }
 \description{
 This function runs the various functions of the package in the correct order.
+}
+\examples{
+main_func()
 }
