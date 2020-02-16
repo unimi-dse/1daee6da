@@ -1,7 +1,7 @@
 ---
 title: "README"
 author: "Filip Vitez"
-date: "2/6/2020"
+date: "2/16/2020"
 ---
 
 ```{r setup, include=FALSE}
