@@ -22,7 +22,7 @@ Enable the functions of the package by running the command:
 > require(titanicanalysis)
 ```
 
-You can either choose to run the function named main_func which will run the various functions of the package in the right order, or to play around with the functions by yourself by calling them individually. Note that if you choose the latter, you first need to run the import_data function, as the rest of the functions depend on that.
+You can either choose to run the function named main_func which will run the various functions of the package in the right order, or to play around with the functions by yourself by calling them individually. 
 
 ```
 Run the main function by typing:
