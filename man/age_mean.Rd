@@ -4,7 +4,7 @@
 \alias{age_mean}
 \title{Passenger Age Mean}
 \usage{
-To use this function by itself, you need to input the Titanic DF. The DF can be stored as a variable by using the function import_data().
+age_mean(df = NULL)
 }
 \arguments{
 \item{df}{The Titanic dataframe. Raw data as csv from Kaggle, converted to a R dataframe with the function read_csv.}
@@ -13,5 +13,5 @@ To use this function by itself, you need to input the Titanic DF. The DF can be 
 This function returns the mean age of the passengers.
 }
 \examples{
-age_mean(df)
+age_mean()
 }

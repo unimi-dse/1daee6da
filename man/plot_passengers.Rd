@@ -4,7 +4,7 @@
 \alias{plot_passengers}
 \title{Plot Passengers}
 \usage{
-To use this function by itself, you need to input the Titanic DF as an argument for the function. The DF can be stored as a variable by using the function import_data().
+plot_passengers(df = NULL)
 }
 \arguments{
 \item{df}{The Titanic dataframe. Raw data as csv from Kaggle, converted to a R dataframe with the function read_csv.}
@@ -13,5 +13,5 @@ To use this function by itself, you need to input the Titanic DF as an argument 
 This function plots a scatter plot of the passengers, with the binary feature "Survived" on the y axis, and integer feature "Age" on the x-axis. The gender of each passenger is represented as colors. It is not included in the main-func.
 }
 \examples{
-survivor_age_mean(df)
+plot_passengers()
 }

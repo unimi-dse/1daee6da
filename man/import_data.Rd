@@ -4,7 +4,7 @@
 \alias{import_data}
 \title{Import Data}
 \usage{
-To use this function by itself, store the DF in a variable.
+import_data()
 }
 \description{
 This function reads the data from a csv-file and returns it as a DataFrame-object.
